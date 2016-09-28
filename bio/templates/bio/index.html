@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% load static %}
+{% block head_css_page %}
+	<link href="{% static "bio/css/style.css" %}" rel="stylesheet" media="screen">
+{% endblock head_css_page %}
+{% block content %}
+<div class="container">
+	<div class="row row-intro">
+		<div class="col-md-2 profile-col">
+			<img src="{% static "images/profile.png" %}" alt="profile pic" class="profile-image"> 
+		</div>
+		<div class="col-md-10">
+			<h1>Software Architect, Entrepreneur</h1>
+		    <p>I have spent 19 years translating complex business needs into sophisticated, customer focused software solutions that are stable, secure, maintainable, scalable and user friendly. I have experience managing developers within both Fortune 100 and startup environments. I am currently studying machine learning to deliver the next generation of smart applications.</p>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			<h2>Professional Experience</h2>
+			<div class="bio-container">
+				<img src="{% static "bio/images/IronOak-Energy-Insights-Logo.png" %}" alt="IronOak Energy Insights">
+				<h3>Co-founder, CTO | 2012 – present</h3>
+				<ul>
+					<li>Developed and maintained a web application that curates news and information about the clean energy sector from across the web using various API's and a c# development framework.</li>
+					<li>Ensured a secure and user friendly experience via defensive programming, responsive design, and AJAX.</li>
+					<li>Created a platform for users to save their favorite articles (like Pocket).</li>
+					<li>Built back office processes to allow for content management with no developer intervention.</li>
+					<li>Managed a team of three software developers.</li>
+				</ul>
+			</div>
+			<div class="bio-container">
+				<img src="{% static "bio/images/Bank-of-America-Logo.gif" %}" alt="Bank of America">
+				<h3>VP, Software and Database Architect | 1997 – 2015</h3>
+				<ul>
+					<li>Designed and supported a variety of applications using c# and java including a ticketing system utilized by over 50,000 bank associates.</li>
+					<li>Involved in the entire software development life cycle including gathering business requirements, high/low level design, programming, code review, unit testing, code security scans, and user acceptance testing.</li>
+					<li>Architect for data models to support large and complex data sets, and built a batch processing system to automatically load thousands of files and handle processing dependencies to ensure code was executed in the correct order.</li>
+					<li>Created a database to house over 25 million credit card transactions totaling nearly $5 billion in order to facilitate the detection of and reduction in fraud.</li>
+					<li>Improved development standards and greatly reduced development times through the introduction of innovative new tools and creative solutions.</li>
+					<li>Managed a team of three developers.</li>
+				</ul>
+			</div>
+			<div class="bio-container">
+				<h3>Self Employed, Software Consultant | 2006 – 2012</h3>
+				<ul>
+					<li>Built web and database solutions for small businesses.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-4 tech-logos">
+			<h2>Technology Summary</h2>
+			<div class="tech-python"></div>
+			<div class="tech-django"></div>
+			<div class="tech-nginx"></div>
+			<div class="tech-postgres"></div>
+			<div class="tech-linux"></div>
+			<div class="tech-git"></div>
+			<div class="tech-octave"></div>
+			<div class="tech-javascript"></div>
+			<div class="tech-jquery"></div>
+			<div class="tech-html"></div>
+			<div class="tech-css"></div>
+			<div class="tech-xml"></div>
+			<div class="tech-csharp"></div>
+			<div class="tech-java"></div>
+			<div class="tech-osx"></div>
+			<div class="tech-windows"></div>
+			<div class="tech-sql"></div>
+		</div>
+	</div>
+</div>
+{% endblock content %}

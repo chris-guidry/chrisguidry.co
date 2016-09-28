@@ -1,0 +1,75 @@
+.row-intro {
+	display: flex;
+    align-items: center;
+}
+@media (max-width:961px) {
+	.row-intro {
+		display: block;
+	}
+}
+h3 {
+	margin-top: 2vh;
+}
+.bio-container {
+	margin: 2vh 0 6vh 2vh;
+}
+.tech-logos div {
+    background-image: url('/static/bio/images/tech-sprite.png');
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 120px;
+	display: inline-block;
+	margin: 2vh 1vh;
+	vertical-align: middle;
+}
+.tech-python {
+	background-position: 0px 0px;
+}
+.tech-csharp {
+	background-position: 0px -40px;
+}
+.tech-java {
+	background-position: 0px -80px;
+}
+.tech-octave {
+	background-position: 0px -120px;
+}
+.tech-javascript {
+	background-position: 0px -160px;
+}
+.tech-html {
+	background-position: 0px -200px;
+}
+.tech-css {
+	background-position: 0px -240px;
+}
+.tech-xml {
+	background-position: 0px -280px;
+}
+.tech-git {
+	background-position: 0px -320px;
+}
+.tech-django {
+	background-position: 0px -360px;
+}
+.tech-jquery {
+	background-position: 0px -400px;
+}
+.tech-nginx {
+	background-position: 0px -440px;
+}
+.tech-linux {
+	background-position: 0px -480px;
+}
+.tech-osx {
+	background-position: 0px -520px;
+}
+.tech-windows {
+	background-position: 0px -560px;
+}
+.tech-postgres {
+	background-position: 0px -600px;
+}
+.tech-sql {
+	background-position: 0px -640px;
+}
