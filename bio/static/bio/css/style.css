@@ -10,8 +10,45 @@
 h3 {
 	margin-top: 2vh;
 }
+.tech-label {
+	display: inline-block;
+	vertical-align: text-top;
+	font-weight: bold;
+	margin: 0 1% 0 2%;
+	width: 26%;
+}
+.tech-summary {
+	display: inline-block;
+	vertical-align: text-top;
+	width: 70%;
+}
+.tech-learn {
+	font-style: italic;
+	margin-left: .5em;
+}
+@media (max-width:961px) {
+	.tech-label, .tech-summary {
+		width: 100%;
+		margin-left: 2vh;
+	}
+	.tech-summary {
+		margin-bottom: .5em;
+	}
+}
 .bio-container {
 	margin: 2vh 0 6vh 2vh;
+}
+.bio-container-bac h3 {
+	margin-left: 1em;
+}
+.bio-container-bac ul {
+    margin-left: 3em !important;
+}
+.tech-env {
+	margin: .5em 0 0 .5em;
+}
+.bio-container-bac .tech-env {
+    margin-left: 2em;
 }
 .tech-logos div {
     background-image: url('/static/bio/images/tech-sprite.png');

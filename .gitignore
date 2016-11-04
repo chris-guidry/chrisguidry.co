@@ -1,4 +1,11 @@
-#SOURCE: https://github.com/github/gitignore/blob/master/Python.gitignore
+#Custom settings
+cfg/settings.py
+
+*.DS_Store
+*.dropbox
+
+
+#Boilerplate settings from: https://github.com/github/gitignore/blob/master/Python.gitignore
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -9,7 +9,10 @@ body {
 	color: #4A4A4A;
 	font-size: 20px;
 	overflow: visible;
-	font-family: Ubuntu, sans-serif, "Helvetica Neue",Helvetica,Arial
+	font-family: Ubuntu, sans-serif, "Helvetica Neue",Helvetica,Arial;
+	-webkit-user-select: auto;
+	-moz-user-select: auto;
+	user-select: auto;
 }
 #site-wrapper {
 	min-height: 82vh;
